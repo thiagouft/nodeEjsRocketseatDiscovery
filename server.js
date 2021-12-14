@@ -6,12 +6,12 @@ app.set("view engine", "ejs");
 
 //rota index
 app.get("/", function (req, res) {
-  res.render("index");
+  res.render("pages/index");
 });
 
 //rota sobre
 app.get("/sobre", function (req, res) {
-  res.render("about");
+  res.render("pages/about");
 });
 
 app.listen(8080);
