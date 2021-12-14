@@ -1,36 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    />
-    <style>
-      body {
-        padding-top: 50px;
-      }
-    </style>
-    <title>Construindo com EJS</title>
-  </head>
+  <%- include('head'); %>
   <body class="container">
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">EJS</a>
-      </nav>
-    </header>
-
+    <%- include('header'); %>
     <main>
       <div class="jumbotron">
         <h1>Node com EJS</h1>
         <p>Vamos aprender a trabalhar com arquivos EJS</p>
       </div>
     </main>
-
-    <footer class="text-center text-muted">
-      <p>Feito com com muita dedicação por Thiago Silva Pereira 🚀</p>
-    </footer>
+    <%- include('footer'); %>
   </body>
 </html>
